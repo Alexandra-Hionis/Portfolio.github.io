@@ -9,26 +9,26 @@ function Footer() {
     <ul style="list-style: none;">
    <li> 
     <Link to="https://www.linkedin.com/in/alexandra-hionis/">
-    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons">
+    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons"/>
     </Link>
        
   </li>
   <li>
    
 <Link to="https://github.com/Alexandra-Hionis">
-    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons">
+    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons"/>
     </Link>
   </li>
   <li>
     
 <Link to="https://twitter.com/AlexandraHionis">
-    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons">
+    <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons"/>
     </Link>
     
   </li>
   </ul>
   </footer>
-  
+
   );
 }
 
