@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../App.css';
+import Logo from "../images/logo.png"
 
 function Header() {
     return (
@@ -14,7 +15,7 @@ function Header() {
                                     ? "nav-link active"
                                     : "navbar-brand"
                             }>
-                                <img id="assets/images/logo.png" alt="logo"/>
+                                <img src={Logo} id="logo" alt="logo"/>
             </Link> 
      
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
