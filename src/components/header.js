@@ -1,0 +1,66 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import '../App.css';
+
+function header() {
+    return (
+        
+  <header className="header" id="myHeader">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+      <Link to="/portfolio.github.io"
+                            className={
+                                window.location.pathname === "/portfolio.github.io" || window.location.pathname === "/home"
+                                    ? "nav-link active"
+                                    : "navbar-brand"
+                            }>
+                                <img id="logo" src="public/assets/images/logo.png" alt="logo"/>
+            </Link>
+     
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+            <Link t to="/about"
+                            className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                        >
+                            About
+            </Link>
+              
+            </li>
+            <li className="nav-item">
+            <Link  to="/projects"
+                            className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
+                        >
+                            Projects
+            </Link>
+           
+            </li>
+            <li className="nav-item">
+            <Link  to="/contact"
+                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
+                            Contact
+            </Link>
+              
+            </li>
+            <li className="nav-item">
+            <Link  to="https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing"
+                            className={window.location.pathname === "https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing" ? "nav-link active" : "nav-link"}
+                        >
+                            Resume
+            </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+ 
+
+    );
+}
+
+export default header;
