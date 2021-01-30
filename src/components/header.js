@@ -48,12 +48,8 @@ function Header() {
               
             </li>
             <li className="nav-item">
-            <Link  to="https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing"
-                            className={window.location.pathname === "https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing" ? "nav-link active" : "nav-link"}
-                        >
-                            Resume
-                            {/* Or do I add it as PDF */}
-            </Link>
+            
+            <a href="https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing" target="_blank" className="resumeLink">Resume</a>
             </li>
           </ul>
         </div>

@@ -6,6 +6,7 @@ import Form from "../components/Form.js"
 import {Row, Col} from "react-bootstrap"
 import '../App.css';
 import ContactInfo from "../images/contact-info.png"
+// import Rainbow from "../images/rainbow.png"
 function Contact() {
     return (
        <div className = "body">
@@ -34,6 +35,13 @@ function Contact() {
           </Col>
         </Col>
         </Row>
+        <Row>
+          <Col size="sm-12" id="copyright">
+            <p>&#169;Alexandra Hionis
+            {/* <img src={Rainbow} id="rainbow"src="assets/images/rainbow.png" alt="rainbow" /> */}
+         </p>
+            </Col>
+            </Row>
         </Container>
            </section>
 

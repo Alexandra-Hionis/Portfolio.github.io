@@ -8,6 +8,7 @@ import UMEWE from "../images/UMEWE.png"
 import OutOfOffice from "../images/outofoffice.png"
 import EatDaBurger from "../images/burger.png"
 import WorkDayPlanner from "../images/planner.png"
+import Resume from "../images/Coding-Resume.pdf"
 
 function Projects() {
     return (
@@ -18,7 +19,9 @@ function Projects() {
         <Col size="sm-12" ClassName="portfolio">
           <p><span className="slide-right-font"> Projects </span></p>
           <div>
-          <ResumeButton />
+          <a src={Resume} target="_blank" class="resumeLink">
+        <button type="button" className="btn btn-dark btn">View Resume</button>
+      </a>
           </div>
         </Col>
       </Row>
