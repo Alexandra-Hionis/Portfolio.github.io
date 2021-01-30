@@ -9,6 +9,8 @@ import OutOfOffice from "../images/outofoffice.png"
 import EatDaBurger from "../images/burger.png"
 import WorkDayPlanner from "../images/planner.png"
 import Resume from "../images/Coding-Resume.pdf"
+import Quiz from "../images/quiz.png"
+import Weather from "../images/weather.png"
 
 function Projects() {
     return (
@@ -113,10 +115,61 @@ function Projects() {
               </a>
             </Col>
           </Row>
+
+          
         
       </Row>
 
+      <Row>
+        <Col size="sm-6" ClassName="portfolio">
+        <img src={Quiz} ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
+        </Col>
+        <Col size="sm-6" ClassName="portfolio">
+          <p><span ClassName="slide-right-font">Javascript Quiz</span></p>
+          <p ClassName="slide-in from-right about-section-font thumbnail-margin">
+          A timed code quiz with multiple-choice questions that tests your knowledge on JavaScript
+            questions.
+          </p>
+          </Col>
+          <Row id="button-row">
+          <Col size="sm-6"><br></br>
+              <a href="https://github.com/Alexandra-Hionis/JavaScript-Quiz" target="_blank">
+                <button type="button" ClassName="btn btn-dark btn-space btn-sm">GitHub</button>
+              </a>
+              <a href="https://alexandra-hionis.github.io/JavaScript-Quiz/" target="_blank" ClassName="resumeLink">
+                <button type="button" ClassName="btn btn-dark btn-space btn-sm">Deployed App</button>
+              </a>
+            </Col>
+          </Row>
 
+          
+        
+      </Row>
+
+      <Row>
+        <Col size="sm-6" ClassName="portfolio">
+        <img src={Weather} ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
+        </Col>
+        <Col size="sm-6" ClassName="portfolio">
+          <p><span ClassName="slide-right-font">What's Up Weather</span></p>
+          <p ClassName="slide-in from-right about-section-font thumbnail-margin">
+          Weather application that allows a user to search for a city and get the current weather and 5 day forecast.
+          </p>
+          </Col>
+          <Row id="button-row">
+          <Col size="sm-6"><br></br>
+              <a href="https://github.com/Alexandra-Hionis/Weather-Dashboard" target="_blank">
+                <button type="button" ClassName="btn btn-dark btn-space btn-sm">GitHub</button>
+              </a>
+              <a href="https://alexandra-hionis.github.io/Weather-Dashboard/" target="_blank" ClassName="resumeLink">
+                <button type="button" ClassName="btn btn-dark btn-space btn-sm">Deployed App</button>
+              </a>
+            </Col>
+          </Row>
+
+          
+        
+      </Row>
       </Container>
 </section>
 </div>
