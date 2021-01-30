@@ -28,8 +28,8 @@ function Projects() {
         <img src={UMEWE} ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
         </Col>
         <Col size="sm-6" ClassName="portfolio">
-          <p><span ClassName="slide-right-font slide-in from-right"> UMEWE </span></p>
-          <p ClassName="slide-in from-right about-section-font thumbnail-margin">
+          <p><span ClassName="slide-right-font"> UMEWE </span></p>
+          <p ClassName="about-section-font thumbnail-margin">
             Whether you’re looking to meet a friend, family member, or even a date, UMEWE will find the midway point
             between two different locations and display a list of 10 restaurants within that radius. </p>
           </Col>
@@ -51,7 +51,7 @@ function Projects() {
         <img src={OutOfOffice} ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
         </Col>
         <Col size="sm-6" ClassName="portfolio">
-          <p><span ClassName="slide-right-font slide-in from-right"> Out-Of-Office  </span></p>
+          <p><span ClassName="slide-right-font"> Out-Of-Office  </span></p>
           <p ClassName="slide-in from-right about-section-font thumbnail-margin">
           Out of Office enables employees to create a post for an after-work event. Other employees can search, join, or create events. </p>
           </Col>
@@ -73,7 +73,7 @@ function Projects() {
         <img src={EatDaBurger} ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
         </Col>
         <Col size="sm-6" ClassName="portfolio">
-          <p><span ClassName="slide-right-font slide-in from-right"> Eat-Da-Burger  </span></p>
+          <p><span ClassName="slide-right-font"> Eat-Da-Burger  </span></p>
           <p ClassName="slide-in from-right about-section-font thumbnail-margin">
           Eat-Da-Burger! is a restaurant application that lets users input the names of burgers they'd like to eat. You can add, devour and delete it. </p>
           </Col>
@@ -95,7 +95,7 @@ function Projects() {
         <img src={WorkDayPlanner } ClassName="slide-in from-left photo" id="selfie-project-photos"  alt="thubnail"/>
         </Col>
         <Col size="sm-6" ClassName="portfolio">
-          <p><span ClassName="slide-right-font slide-in from-right"> Work Day Planner  </span></p>
+          <p><span ClassName="slide-right-font"> Work Day Planner  </span></p>
           <p ClassName="slide-in from-right about-section-font thumbnail-margin">
           A simple calendar application that allows a user to save events for each hour of the day.
           </p>
