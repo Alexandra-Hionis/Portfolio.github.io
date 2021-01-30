@@ -165,7 +165,7 @@ max-width:100%;
 
 }
 
-#selfie {
+#selfie-project-photos {
     object-fit: cover;
     border: solid 2px black; 
     width: 50%;

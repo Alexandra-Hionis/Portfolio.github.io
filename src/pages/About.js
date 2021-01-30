@@ -1,4 +1,5 @@
 import React from "react"
+import Container from "../components/Container.js"
 import Row from "../components/Row.js"
 import Col from "../components/Col.js"
 import '../App.css';
@@ -7,7 +8,7 @@ function About() {
     return (
        <div className = "body">
            <section id="about">
-
+           <Container>
         <Row>
          
         <Col size="sm-12" className="about">
@@ -42,7 +43,7 @@ function About() {
     
         <Row>
         <Col size="sm-6" className="about-photo-text-align">
-        <img src={Me} id="selfie" alt="image of me"/>
+        <img src={Me} id="selfie-project-photos" alt="image of me"/>
           </Col>
          <Col size="sm-6" className="about-photo-text-align">
             <p><span className="slide-right-font"> Web Developer</span></p>
@@ -57,6 +58,7 @@ function About() {
             in tech and I am always open to new adventures!</p>
           </Col>
         </Row>
+        </Container>
            </section>
 
 </div>

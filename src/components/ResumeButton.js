@@ -5,10 +5,10 @@ import '../App.css';
 
 function Button() {
     return(
-        <div>
-            <button type="button" className="btn btn-dark btn"><a href="https://docs.google.com/document/d/19Wcy0ooNi6-j8iqc8i6S6VrpQ56BcJ8UMEzf7GtMPIQ/edit?usp=sharing" target="_blank" className="resumeLink"></a>View Resume</button>
         
-        </div>
+        <a href="assets/images/Coding-Resume.pdf" target="_blank" class="resumeLink">
+        <button type="button" className="btn btn-dark btn">View Resume</button>
+      </a>
     );
 
 
