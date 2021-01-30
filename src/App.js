@@ -5,6 +5,7 @@ import './App.css';
 import Header from "./components/Header.js";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
+import Projects from "./pages/Projects.js";
 // import Footer from "./components/Footer.js";
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Home />
       
         <About />
-     
+      <Projects />
     </Router>
   );
 }

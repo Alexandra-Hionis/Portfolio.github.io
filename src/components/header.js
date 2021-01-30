@@ -9,9 +9,9 @@ function Header() {
   <header className="header" id="myHeader">
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-    <Link to="/portfolio.github.io"
+    <Link to="/Home"
                             className={
-                                window.location.pathname === "/portfolio.github.io" || window.location.pathname === "/home"
+                                window.location.pathname === "/Home" || window.location.pathname === "/home"
                                     ? "nav-link active"
                                     : "navbar-brand"
                             }>
